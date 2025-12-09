@@ -16,19 +16,164 @@
             <img src="ressources/logo.png" alt="logo de Klivio">
             <p><a href="">Les formations</a></p>
             <div id="barreRecherche">
-                <p>Rechercher</p>
-                <img src="ressources/magnifying-glass-solid-full.svg">
+                <input placeholder="Rechercher" type="text">
+                <img src="ressources/magnifying-glass-solid-full.svg" alt="loupe">
             </div>
             <button>Connexion</button>
             <button class="gradient">Inscription</button>
         </nav> 
         <header id="hero">
-            <h1>KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h1>
-            <p>LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</p>
+            <h1 class="uppercase">Klivio, l'allié de votre progression</h1>
+            <p class="uppercase">Les meilleures formations sur le développement personnel</p>
             <button>En savoir plus</button>
         </header>
-        <section>
+        <div id="section1">
             <h2>Les formations populaires</h2>
-        </section>
+            <div id=formationsPop>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Parler en public</h3>
+                    <p>Sonia Levèfre | Coach prise de parole</p>
+                    <img src="ressources/5etoiles.svg" alt="5 étoiles">
+                    <p>Gagnez en aisance et captez votre auditoire</p>
+                </card>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Gérer son stress</h3>
+                    <p>Lucie Garnier | Formatrice</p>
+                    <img src="ressources/4etoiles.svg" alt="4 étoiles">
+                    <p>Apprenez à rester serein face aux défis</p>
+                </card>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Travailler en équipe</h3>
+                    <p>David Moreau | Expert</p>
+                    <img src="ressources/5etoiles.svg" alt="5 étoiles">
+                    <p>Collaborez efficacement, même à distance</p>
+                </card>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Gérer son temps</h3>
+                    <p>Claire Dumas | Coach organisation</p>
+                    <img src="ressources/4etoiles.svg" alt="4 étoiles">
+                    <p>Optimisez vos journées et gagnez en efficacité</p>
+                </card>
+            </div>
+            <button>Voir plus de formations</button>
+        </div>
+        <div id="section2">
+            <h2>Les formations récentes</h2>
+            <div id=formationsRec>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Mieux communiquer</h3>
+                    <p>Julien Martel | Coach en comm.</p>
+                    <img src="ressources/5etoiles.svg" alt="5 étoiles">
+                    <p>Améliorez vos échanges et votre impact relationnel</p>
+                </card>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Maîtriser ses émotions</h3>
+                    <p>Amel Benali | Psy. du travail</p>
+                    <img src="ressources/5etoiles.svg" alt="5 étoiles">
+                    <p>Développez calme et intelligence émotionnelle</p>
+                </card>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Résoudre les problèmes</h3>
+                    <p>Thomas Rivière | Expert</p>
+                    <img src="ressources/4etoiles.svg" alt="4 étoiles">
+                    <p>Analysez, décidez et trouvez des solutions durables</p>
+                </card>
+                <card>
+                    <img src="ressources/img-course.png" alt="image de cours">
+                    <div class="prix">
+                        <span class="newPrice">15,99 €</span>
+                        <span class="reduc">60 €</span>
+                    </div>
+                    <h3>Leadership positif</h3>
+                    <p>Marc Nguyen | Consultant</p>
+                    <img src="ressources/4etoiles.svg" alt="4 étoiles">
+                    <p>Inspirez, motivez et fédérez votre équipe</p>
+                </card>
+            </div>
+            <button>Voir plus de formations</button>
+        </div>
+        <div id="section3">
+            <h2 class="uppercase">Avis clients</h2>
+            <div id="avis">
+                <div class="avisPersonne">
+                    <img src="ressources/juliette.png" alt="juliette" class="profil">
+                    <h3>Juliette</h3>
+                    <img src="ressources/5etoiles.svg" alt="5 étoiles">
+                    <p>J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et la progression est motivante — parfait pour se former en autonomie.</p>
+                </div>
+                <div class="avisPersonne">
+                    <img src="ressources/camille.png" alt="camille" class="profil">
+                    <h3>Camille</h3>
+                    <img src="ressources/5etoiles.svg" alt="5 étoiles">
+                    <p>Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support et les corrections automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.</p>
+                </div>
+            </div>
+        </div>
+        <div id="section4">
+            <div id="gauche">
+                <h2 class="uppercase">Les avantages Klivio</h2>
+                <ul>
+                    <div class="li"><img src="ressources/arrow-up-right.svg" alt="flèche"><span>Suivi de sa progression</span></div>
+                    <div class="li"><img src="ressources/edit-01.svg" alt="crayon"><span>Exercices et QCM pour la mise en pratique</span></div>
+                    <div class="li"><img src="ressources/download-02.svg" alt="téléchargement"><span>Possibilité de télécharger/imprimer les formations</span></div>
+                    <div class="li"><img src="ressources/star-02.svg" alt="étoile"><span>Contenu qualitatif et vérifié</span></div>
+                    <div class="li"><img src="ressources/clock-backward.svg" alt="horloge"><span>Suivi en autonomie, 24h/24, 7j/7</span></div>
+                    <div class="li"><img src="ressources/annotation-typing.svg" alt="message"><span>Espaces d'échanges dédiés pour poser ses questions sur les formations</span></div>
+                </ul>
+            </div>
+            <div id="droite">
+                <img src="ressources/avantages.png" alt="avantages klivio">
+            </div>
+        </div>
+        <div id="section5">
+            <div id="gauche2">
+                <img src="ressources/become-author.png" alt="author">
+            </div>
+            <div id="droite2">
+                <h2 class="uppercase">Créez vos formations avec Klivio</h2>
+                    <ul>
+                    <div class="li2"><img src="ressources/coin-hand.svg" alt="main"><span>Commission unique, au pourcentage sur les ventes</span></div>
+                    <div class="li2"><img src="ressources/heart.svg" alt="coeur"><span>Mise en avant sur la plateforme</span></div>
+                    <div class="li2"><img src="ressources/pencil-01.svg" alt="stylo"><span>Contrôle total sur le cours:contenu, prix</span></div>
+                    <div class="li2"><img src="ressources/settings.svg" alt="paramètres"><span>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</span></div>
+                    <div class="li2"><img src="ressources/user-profile-square.svg" alt="profil"><span>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</span></div>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

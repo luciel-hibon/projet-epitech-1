@@ -5,6 +5,10 @@
     font-size: 15px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 nav {
     height: 80px;
     background-color: #152237;
@@ -28,6 +32,10 @@ button {
     border: none;
     width: 130px;
     height: 40px;
+}
+
+.gradient {
+     background-image: linear-gradient(to right, #44DD8A, #15B7E2);
 }
 
 #barreRecherche {
@@ -89,16 +97,272 @@ header p {
     font-size: 20px;
 }
 
-.gradient {
-      background-image: linear-gradient(to right, #44DD8A, #15B7E2);
-}
-
-section {
+/* section 1 */
+#section1 {
     height: 632px;
-    padding: 97px 30px;
+    position: relative;
 }
 
-section h2 {
+#formationsPop {
+    display: flex;
+    justify-content: space-evenly;
+}
+#section1 h2 {
     font-weight: 800;
     font-size: 36px;
+    color: #152237;
+    margin:30px 97px;
+}
+
+.prix {
+    border-radius: 93px;
+    width: 120px;
+    background-color: #152237;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left:174px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+.newPrice {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.reduc {
+    font-size:10px;
+    font-weight: 400;
+    text-decoration:line-through;
+}
+
+card {
+    width: 307px;
+    height: 362px;
+}
+
+card img {
+    margin-bottom: 21px;
+}
+card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+card p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+#section1 button {
+    width: 225px;
+    height: 40px;
+    background-color: #152237;
+    color: white;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+/*section 2*/
+#section2 {
+    height: 632px;
+    background-color: #152237;
+    position: relative;
+}
+
+#formationsRec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section2 h2 {
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+    padding:30px 97px;
+}
+
+#section2 card {
+    width: 307px;
+    height: 362px;
+    color: white;
+}
+
+card img {
+    margin-bottom: 21px;
+}
+card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+card p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+#section2 .prix {
+    border-radius: 93px;
+    width: 120px;
+    background-color: white;
+    color: #152237;
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left:174px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+#section2 .newPrice {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#section2 .reduc {
+    font-size:10px;
+    font-weight: 400;
+    text-decoration:line-through;
+}
+
+#section2 button {
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    color: #152237;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 30px;
+}
+
+/*section 3*/
+#section3{
+    height: 597px;
+}
+
+#section3 h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color:#152237;
+    text-align: center;
+    margin: 58px;
+}
+
+#avis {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 152px;
+}
+
+.profil {
+    border-radius: 100%;
+}
+
+.avisPersonne img{
+    padding: 10px 0px;
+}
+
+.avisPersonne {
+    max-width: 686px;
+}
+
+/*section 4*/
+#section4 {
+    height: 641px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section4 h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color:#152237;
+}
+
+#section4 li {
+    font-size:24px ;
+}
+
+#section4 ul {
+    width: 616px;
+    padding-top: 43px;
+}
+
+.li img{
+    width: 24px;
+    padding: 15px 35px;
+}
+
+.li {
+    display: flex;
+    align-items: center;
+}
+
+#droite {
+    width: 727px;
+    padding-bottom: 93px;
+}
+
+/*section 5*/
+
+#section5 {
+    background-color: #44DD8A;
+    height: 641px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section5 h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color:#152237;
+}
+
+#section5 li {
+    font-size:24px ;
+}
+
+#section5 ul {
+    width: 616px;
+    padding-top: 43px;
+}
+
+#gauche2 {
+    padding:76px 39px 0px 39px;
+}
+
+#droite2 {
+    padding-top: 76px;
+}
+
+.li2 img{
+    width: 24px;
+    padding-right: 35px;
+}
+
+.li2 {
+    display: flex;
+    align-items: center;
+}
+
+.li2 span {
+     padding: 15px 35px 0px 0px;
+    font-size: 24px;
 }
