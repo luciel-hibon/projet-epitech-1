@@ -19,8 +19,10 @@
                 <input placeholder="Rechercher" type="text">
                 <img src="ressources/magnifying-glass-solid-full.svg" alt="loupe" id="loupe">
             </div>
+            <div id="boutonsNav">
             <button>Connexion</button>
             <button class="gradient">Inscription</button>
+            </div>
         </nav> 
         <header id="hero">
             <h1 class="uppercase">Klivio, l'allié de votre progression</h1>
@@ -147,14 +149,24 @@
         <div id="section4">
             <div id="gauche">
                 <h2 class="uppercase">Les avantages Klivio</h2>
-                <ul>
-                    <div class="li"><img src="ressources/arrow-up-right.svg" alt="flèche"><span>Suivi de sa progression</span></div>
-                    <div class="li"><img src="ressources/edit-01.svg" alt="crayon"><span>Exercices et QCM pour la mise en pratique</span></div>
-                    <div class="li"><img src="ressources/download-02.svg" alt="téléchargement"><span>Possibilité de télécharger/imprimer les formations</span></div>
-                    <div class="li"><img src="ressources/star-02.svg" alt="étoile"><span>Contenu qualitatif et vérifié</span></div>
-                    <div class="li"><img src="ressources/clock-backward.svg" alt="horloge"><span>Suivi en autonomie, 24h/24, 7j/7</span></div>
-                    <div class="li"><img src="ressources/annotation-typing.svg" alt="message"><span>Espaces d'échanges dédiés pour poser ses questions sur les formations</span></div>
-                </ul>
+                <div id="listeIcone">
+                    <div id="colonneIcone">
+                        <img src="ressources/arrow-up-right.svg" alt="flèche">
+                        <img src="ressources/edit-01.svg" alt="crayon">
+                        <img src="ressources/download-02.svg" alt="téléchargement">
+                        <img src="ressources/star-02.svg" alt="étoile">
+                        <img src="ressources/clock-backward.svg" alt="horloge">
+                        <img src="ressources/annotation-typing.svg" alt="message">
+                    </div>
+                    <div id="listeSansIcone">
+                        <p>Suivi de sa progression</p>
+                        <p>Exercices et QCM pour la mise en pratique</p>
+                        <p>Possibilité de télécharger/imprimer les formations</p>
+                        <p>Contenu qualitatif et vérifié</p>
+                        <p>Suivi en autonomie, 24h/24, 7j/7</p>
+                        <p>Espaces d'échanges dédiés pour poser ses questions sur les formations</p>
+                    </div>
+                </div>
             </div>
             <div id="droite">
                 <img src="ressources/avantages.png" alt="avantages klivio">
@@ -195,10 +207,55 @@
                 <input type="text" placeholder="Email">
                 </div>
                 <div id="mail">
-                <input type="text" placeholder="Votre message">
+                <textarea type="text" placeholder="Votre message" id="message-input"></textarea>
                 </div>
-                <button>Envoyer</button>
             </form>
+            <button>Envoyer</button>
         </div>
+        <div id="barreVerte"></div>
+        <footer>
+            <div id="haut">
+                <img src="ressources/logo.png" alt="logo klivio" id="logo">
+                <div id="mentions">
+                    <div id="mentionsLegales">
+                        <h3>Mentions légales</h3>
+                        <p>CGU</p>
+                        <p>CGV</p>
+                        <p>FAQ</p>
+                        <p>Contact</p>
+                    </div>
+                    <div id="coordonnées">
+                        <h3>Coordonnées</h3>
+                        <div class="liste">
+                            <img src="ressources/marker-02.svg" alt="icone localisation">
+                            <p>1 place république, 750003 Paris</p>
+                        </div>
+                        <div class="liste">
+                            <img src="ressources/phone.svg" alt="telephone">
+                            <p>01.02.03.04.05</p>
+                        </div>
+                        <div class="liste">
+                            <img src="ressources/mail-01.svg" alt="mail">
+                            <p>contact@klivio.fr</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="ensemble">
+                    <button>Connexion</button>
+                    <button class="gradient">Inscription</button>
+                </div>
+            </div>
+            <hr>
+            <div id="bas">
+                <p>© Klivio -  2025</p>
+                <div id="reseaux">
+                <p>Suivez - nous</p>
+                <img src="ressources/Social Icons.svg" alt="facebook">
+                <img src="ressources/Social Icons(1).svg" alt="X">
+                <img src="ressources/Social Icons(2).svg" alt="Instagram">
+                <img src="ressources/Vector.svg" alt="Linkedin">
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
