@@ -13,21 +13,21 @@
     </head>
     <body>
         <nav>
-            <img src="ressources/logo.png" alt="logo de Klivio">
+            <img src="ressources/logo.png" alt="logo de Klivio" class="hover">
             <p><a href="">Les formations</a></p>
             <div id="inputPosition">
                 <input placeholder="Rechercher" type="text">
-                <img src="ressources/magnifying-glass-solid-full.svg" alt="loupe" id="loupe">
+                <img src="ressources/magnifying-glass-solid-full.svg" alt="loupe" id="loupe" class="hover">
             </div>
             <div id="boutonsNav">
-            <button>Connexion</button>
-            <button class="gradient">Inscription</button>
+            <button class="hover">Connexion</button>
+            <button class="gradient hover">Inscription</button>
             </div>
         </nav> 
         <header id="hero">
             <h1 class="uppercase">Klivio, l'allié de votre progression</h1>
             <p class="uppercase">Les meilleures formations sur le développement personnel</p>
-            <button>En savoir plus</button>
+            <button class="hover">En savoir plus</button>
         </header>
         <div id="section1">
             <h2>Les formations populaires</h2>
@@ -77,7 +77,7 @@
                     <p>Optimisez vos journées et gagnez en efficacité</p>
                 </card>
             </div>
-            <button>Voir plus de formations</button>
+            <button class="hover">Voir plus de formations</button>
         </div>
         <div id="section2">
             <h2>Les formations récentes</h2>
@@ -127,10 +127,10 @@
                     <p>Inspirez, motivez et fédérez votre équipe</p>
                 </card>
             </div>
-            <button>Voir plus de formations</button>
+            <button class="hover">Voir plus de formations</button>
         </div>
         <div id="section3">
-            <h2 class="uppercase">Avis clients</h2>
+            <h2 class="uppercase titre">Avis clients</h2>
             <div id="avis">
                 <div class="avisPersonne">
                     <img src="ressources/juliette.png" alt="juliette" class="profil">
@@ -148,9 +148,9 @@
         </div>
         <div id="section4">
             <div id="gauche">
-                <h2 class="uppercase">Les avantages Klivio</h2>
-                <div id="listeIcone">
-                    <div id="colonneIcone">
+                <h2 class="uppercase titre">Les avantages Klivio</h2>
+                <div class="listeIcone">
+                    <div class="colonneIcone">
                         <img src="ressources/arrow-up-right.svg" alt="flèche">
                         <img src="ressources/edit-01.svg" alt="crayon">
                         <img src="ressources/download-02.svg" alt="téléchargement">
@@ -158,7 +158,7 @@
                         <img src="ressources/clock-backward.svg" alt="horloge">
                         <img src="ressources/annotation-typing.svg" alt="message">
                     </div>
-                    <div id="listeSansIcone">
+                    <div class="listeSansIcone">
                         <p>Suivi de sa progression</p>
                         <p>Exercices et QCM pour la mise en pratique</p>
                         <p>Possibilité de télécharger/imprimer les formations</p>
@@ -177,19 +177,28 @@
                 <img src="ressources/become-author.png" alt="author">
             </div>
             <div id="droite2">
-                <h2 class="uppercase">Créez vos formations avec Klivio</h2>
-                    <ul>
-                    <div class="li2"><img src="ressources/coin-hand.svg" alt="main"><span>Commission unique, au pourcentage sur les ventes</span></div>
-                    <div class="li2"><img src="ressources/heart.svg" alt="coeur"><span>Mise en avant sur la plateforme</span></div>
-                    <div class="li2"><img src="ressources/pencil-01.svg" alt="stylo"><span>Contrôle total sur le cours:contenu, prix</span></div>
-                    <div class="li2"><img src="ressources/settings.svg" alt="paramètres"><span>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</span></div>
-                    <div class="li2"><img src="ressources/user-profile-square.svg" alt="profil"><span>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</span></div>
-                </ul>
+                <h2 class="uppercase titre">Créez vos formations avec Klivio</h2>
+                 <div class="listeIcone">
+                    <div class="colonneIcone">
+                        <img src="ressources/coin-hand.svg" alt="main">
+                        <img src="ressources/heart.svg" alt="coeur">
+                        <img src="ressources/pencil-01.svg" alt="stylo">
+                        <img src="ressources/settings.svg" alt="paramètres" id="espaceIcone">
+                        <img src="ressources/user-profile-square.svg" alt="profil">
+                    </div>
+                    <div class="listeSansIcone">
+                        <p>Commission unique, au pourcentage sur les ventes</p>
+                        <p>Mise en avant sur la plateforme</p>
+                        <p>Contrôle total sur le cours:contenu, prix</p>
+                        <p>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</p>
+                        <p>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="section6">
             <div id="gauche3">
-                <h2 class="uppercase">À propos de Klivio</h2>
+                <h2 class="uppercase titre">À propos de Klivio</h2>
                 <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous nous engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail. </p>
                 <br>
                 <p>Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité  écessaire pour explorer divers sujets. La transparence est au cœur de notre démarche, garantissant une clarté totale sur les formations que les instructeurs proposent. Ensemble, ces valeurs forment le socle d'une  ducation enrichissante et équitable, guidant notre mission d'offrir des pportunités d'apprentissage de qualité</p>
@@ -199,7 +208,7 @@
             </div>
         </div>
         <div id="section7">
-            <h2 class="uppercase">Nous contacter</h2>
+            <h2 class="uppercase titre">Nous contacter</h2>
             <hr>
             <form>
                 <div id="inlineForm">
@@ -210,7 +219,7 @@
                 <textarea type="text" placeholder="Votre message" id="message-input"></textarea>
                 </div>
             </form>
-            <button>Envoyer</button>
+            <button class="hover">Envoyer</button>
         </div>
         <div id="barreVerte"></div>
         <footer>
@@ -219,41 +228,41 @@
                 <div id="mentions">
                     <div id="mentionsLegales">
                         <h3>Mentions légales</h3>
-                        <p>CGU</p>
-                        <p>CGV</p>
-                        <p>FAQ</p>
-                        <p>Contact</p>
+                        <p class="hover">CGU</p>
+                        <p class="hover">CGV</p>
+                        <p class="hover">FAQ</p>
+                        <p class="hover">Contact</p>
                     </div>
                     <div id="coordonnées">
                         <h3>Coordonnées</h3>
-                        <div class="liste">
-                            <img src="ressources/marker-02.svg" alt="icone localisation">
-                            <p>1 place république, 750003 Paris</p>
-                        </div>
-                        <div class="liste">
-                            <img src="ressources/phone.svg" alt="telephone">
-                            <p>01.02.03.04.05</p>
-                        </div>
-                        <div class="liste">
-                            <img src="ressources/mail-01.svg" alt="mail">
-                            <p>contact@klivio.fr</p>
+                        <div class="listeIcone">
+                            <div class="colonneIcone">
+                                <img src="ressources/marker-02.svg" alt="localisation">
+                                <img src="ressources/phone.svg" alt="telephone">
+                                <img src="ressources/mail-01.svg" alt="mail">
+                            </div>
+                            <div id="petit">
+                                <p>1 place république, 75003 Paris</p>
+                                <p>01.02.03.04.05</p>
+                                <p>contact@klivio.fr</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div id="ensemble">
-                    <button>Connexion</button>
-                    <button class="gradient">Inscription</button>
+                    <button class="hover">Connexion</button>
+                    <button class="gradient hover">Inscription</button>
                 </div>
             </div>
             <hr>
             <div id="bas">
                 <p>© Klivio -  2025</p>
                 <div id="reseaux">
-                <p>Suivez - nous</p>
-                <img src="ressources/Social Icons.svg" alt="facebook">
-                <img src="ressources/Social Icons(1).svg" alt="X">
-                <img src="ressources/Social Icons(2).svg" alt="Instagram">
-                <img src="ressources/Vector.svg" alt="Linkedin">
+                    <p>Suivez - nous</p>
+                    <img src="ressources/Social Icons.svg" alt="facebook" class="hover">
+                    <img src="ressources/Social Icons(1).svg" alt="X" class="hover">
+                    <img src="ressources/Social Icons(2).svg" alt="Instagram" class="hover">
+                    <img src="ressources/Vector.svg" alt="Linkedin" class="hover">
                 </div>
             </div>
         </footer>
