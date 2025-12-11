@@ -5,6 +5,34 @@
     font-size: 15px;
 }
 
+input::placeholder{
+    color: white;
+}
+
+#inputPosition {
+    position: relative;
+    width: 30%;
+}
+
+#loupe {
+    width: 24px;
+    position: absolute;
+    right: 0;
+    top: 15%;
+}
+
+nav input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: solid 1px white;
+    background-color: #152237;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 17px;
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -38,16 +66,6 @@ button {
      background-image: linear-gradient(to right, #44DD8A, #15B7E2);
 }
 
-#barreRecherche {
-    width: 477px;
-    height: 40px;
-    border-radius: 6px;
-    border: solid 1px white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 2px;
-}
 
 header {
     height: 450px;
@@ -346,6 +364,8 @@ card p {
 
 #gauche2 {
     padding:76px 39px 0px 39px;
+    width: 727px;
+    padding-bottom: 93px;
 }
 
 #droite2 {
@@ -354,7 +374,7 @@ card p {
 
 .li2 img{
     width: 24px;
-    padding-right: 35px;
+    padding: 15px 35px;
 }
 
 .li2 {
@@ -362,7 +382,81 @@ card p {
     align-items: center;
 }
 
-.li2 span {
-     padding: 15px 35px 0px 0px;
-    font-size: 24px;
+/*section 6*/
+
+#section6 {
+    height: 641px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section6 h2 {
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 40px;
+    color:#152237;
+}
+
+#droite3 {
+    width: 727px;
+    padding: 293px 200px;
+    background-color: #152237;
+}
+
+#gauche3 {
+    padding: 184px 60px 0 100px;
+}
+
+/*section 7 : formulaire*/
+
+#section7 {
+    height: 641px;
+}
+
+#section7 h2 {
+    font-weight: 900;
+    font-size: 40px;
+    padding: 60px 0 39px 0;
+    text-align: center;
+    color:#152237;
+}
+
+hr {
+    border:solid 1px #44DD8A;
+    width: 20%;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 50px;
+}
+#mail input{
+    width: 1335px;
+    height: 194px;
+    background-color: #152237;
+    border: none;
+    margin-bottom: 55px;
+}   
+
+#mail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#inlineForm input {
+    background-color: #152237;
+    width: 600px;
+    height: 45px;
+    border: none;
+    margin-bottom: 55px;
+}
+
+#section7 form {
+    display: flex;
+    flex-direction: column;
+}
+
+#inlineForm {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
