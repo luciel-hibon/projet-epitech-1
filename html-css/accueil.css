@@ -9,11 +9,15 @@
     font-weight: 900;
     font-size: 40px;
     color:#152237;
-    margin-bottom: 60px;
+    margin-bottom: 1%;
 }
 
 .hover {
     cursor: pointer;
+}
+
+.ordiNone {
+    display: none;
 }
 
 input::placeholder{
@@ -42,7 +46,7 @@ nav input {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 17px;
+    padding: 0 2%;
 }
 .uppercase {
     text-transform: uppercase;
@@ -81,7 +85,7 @@ button {
 }
 
 .gradient {
-     background-image: linear-gradient(to right, #44DD8A, #15B7E2);
+    background-image: linear-gradient(to right, #44DD8A, #15B7E2);
 }
 
 
@@ -104,6 +108,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     
 }
 
@@ -147,7 +152,7 @@ header p {
     font-weight: 800;
     font-size: 36px;
     color: #152237;
-    margin:30px 97px;
+    margin:30px 5%;
 }
 
 .prix {
@@ -187,7 +192,7 @@ card img {
 card h3 {
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 11px;
+    margin-bottom: 1%;
 }
 
 card p {
@@ -595,4 +600,33 @@ hr {
     flex-direction: row;
     align-items: center;
     gap: 21px;
+}
+
+/* PARTIE RESPONSIVE */
+/* mobile */
+
+@media screen and (max-width : 650px){
+    .mobileNone {
+        display: none;
+    }
+    .ordiNone {
+        display:block;
+    }
+    #hero {
+        text-align: center;
+    }
+    #section1 {
+        height: auto;
+    }
+    #section1 h2 {
+        text-align: center;
+    }
+    #formationsPop {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #section1 card {
+        padding-bottom: 47px;
+    }
 }
