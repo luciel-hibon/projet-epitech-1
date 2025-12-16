@@ -181,21 +181,21 @@ header p {
     text-decoration:line-through;
 }
 
-card {
+article {
     width: 307px;
     height: 362px;
 }
 
-card img {
+article img {
     margin-bottom: 21px;
 }
-card h3 {
+article h3 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 1%;
 }
 
-card p {
+article p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -233,7 +233,7 @@ card p {
     padding:30px 5%;
 }
 
-#section2 card {
+#section2 article {
     width: 307px;
     height: 362px;
     color: white;
@@ -613,13 +613,13 @@ hr {
         flex-direction: column;
         align-items: center;
     }
-    #section1 card, #section2 card {
+    #section1 article, #section2 article {
         padding-bottom: 47px;
     }
-    card h3 {
+    article h3 {
     margin-bottom: none;
     }
-    card {
+    article {
         height: auto;
     }
     #section1 button{
