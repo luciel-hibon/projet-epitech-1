@@ -12,16 +12,16 @@
     <body class="margin-0 padding-0 text-[15px]">
         <nav class="bg-[#423073] h-20 text-white flex justify-around items-center">
             <img src="ressources/logo.png" alt="logo de Klivio" class="w-[84px] h-[31px] cursor-pointer">
-            <p><a href="" class="text-white decoration-none">Les formations</a></p>
+            <p><a href="" class="text-white decoration-none max-sm:hidden">Les formations</a></p>
             <div class="relative w-[30%]">
-                <input placeholder="Rechercher" type="text" label="form" class="w-full h-[40px] rounded-[6px] border-solid border-white border-[1px] bg-[#423073] text-white flex items-center justify-between pr-[2%] pl-[2%] placeholder:text-white">
-                <img src="ressources/magnifying-glass-solid-full.svg" alt="loupe" class="cursor-pointer h-[31px] absolute top-[5px] right-[25px]">
+                <input placeholder="Rechercher" type="text" label="form" class="w-full h-[40px] rounded-[6px] border-solid border-white border-[1px] bg-[#423073] text-white flex items-center justify-between pr-[2%] pl-[2%] placeholder:text-white max-sm:hidden">
+                <img src="ressources/magnifying-glass-solid-full.svg" alt="loupe" class="cursor-pointer h-[31px] absolute top-[5px] right-[25px] max-sm:hidden">
             </div>
             <div class="flex justify-center gap-[20px] w-[20%] ">
-                <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] bg-[#A06CD5] text-[black]">Connexion</button>
-                <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] bg-[#A06CD5] text-[black]">Inscription</button>
+                <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] bg-[#A06CD5] text-[black] max-sm:hidden">Connexion</button>
+                <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] bg-[#A06CD5] text-[black] max-sm:hidden">Inscription</button>
             </div>
-            <img src="ressources/Icon.svg" alt="menu" class="cursor-pointer w-[84px] h-[31px]">
+            <img src="ressources/Icon.svg" alt="menu" class="cursor-pointer w-[84px] h-[31px] xl:hidden">
         </nav> 
         <header class="h-[450px] bg-[url(ressources/bg-header.png)] flex flex-col items-center justify-center gap-[20px] relative w-[100%] font-bold text-[25px]">
             <h1 class="uppercase bg-white pr-[2%] pl-[2%] text-[#423073]">Klivio, l'allié de votre progression</h1>
@@ -145,8 +145,8 @@
                 </div>
             </div>
         </div>
-        <div class="h-[641px] flex justify-around bg-[#423073] p-[70px]"> <!--Section 4-->
-            <div id="gauche">
+        <div class="h-[641px] flex justify-around bg-[#423073] p-[70px] center"> <!--Section 4-->
+            <div id="gauche" class="flex flex-col">
                 <h2 class="uppercase font-[900] text-[40px] text-[#E2CFEA] mb-[60px]">Les avantages Klivio</h2>
                 <div class="flex flex-row gap-[25px]">
                     <div class="flex flex-col gap-[20px]">
@@ -157,91 +157,91 @@
                         <img src="ressources/clock-backward.svg" alt="horloge">
                         <img src="ressources/annotation-typing.svg" alt="message">
                     </div>
-                    <div>
-                        <p class="font-[24px]">Suivi de sa progression</p>
-                        <p class="font-[24px]"></p>>Exercices et QCM pour la mise en pratique</p>
-                        <p class="font-[24px]"></p>>Possibilité de télécharger/imprimer les formations</p>
-                        <p class="font-[24px]"></p>>Contenu qualitatif et vérifié</p>
-                        <p class="font-[24px]"></p>>Suivi en autonomie, 24h/24, 7j/7</p>
-                        <p class="font-[24px]"></p>>Espaces d'échanges dédiés pour poser ses questions sur les formations</p>
+                    <div class="flex flex-col gap-[28px] font-[26px] text-white font-semibold w-[65%]">
+                        <p>Suivi de sa progression</p>
+                        <p>Exercices et QCM pour la mise en pratique</p>
+                        <p>Possibilité de télécharger/imprimer les formations</p>
+                        <p>Contenu qualitatif et vérifié</p>
+                        <p>Suivi en autonomie, 24h/24, 7j/7</p>
+                        <p>Espaces d'échanges dédiés pour poser ses questions sur les formations</p>
                     </div>
                 </div>
             </div>
-            <div id="droite">
-                <img src="ressources/avantages.png" alt="avantages klivio">
+            <div class="w-[50%]">
+                <img src="ressources/avantages.png" alt="avantages klivio" class="w-[727px] pb-[93px]">
             </div>
         </div>
-        <div id="section5">
-            <div id="gauche2">
-                <h2 class="ordiNone uppercase font-[900] text-[40px] text-[#152237] mb-[1%]">Créez vos formations</h2>
+        <div class="bg-[#A06CD5] h-[641px] flex justify-around p-[70px] items-center"> <!--Section 5-->
+            <div class="pt-[76px] pr-[39px] pb-[93px] pl-[39px] w-[727px]">
+                <h2 class="uppercase font-[900] text-[40px] text-[#152237] mb-[1%] xl:hidden">Créez vos formations</h2>
                 <img src="ressources/become-author.png" alt="author">
             </div>
-            <div id="droite2">
-                <h2 class="mobileNone uppercase font-[900] text-[40px] text-[#152237] mb-[1%]">Créez vos formations avec Klivio</h2>
+            <div class="flex flex-col w-[50%]">
+                <h2 class="max-sm:hidden uppercase font-[900] text-[40px] text-[#152237]">Créez vos formations avec Klivio</h2>
                  <div class="flex flex-row gap-[25px]">
                     <div class="flex flex-col gap-[20px]">
                         <img src="ressources/coin-hand.svg" alt="main">
                         <img src="ressources/heart.svg" alt="coeur">
                         <img src="ressources/pencil-01.svg" alt="stylo">
-                        <img src="ressources/settings.svg" alt="paramètres" id="espaceIcone">
+                        <img src="ressources/settings.svg" alt="paramètres" class="mb-[85px]">
                         <img src="ressources/user-profile-square.svg" alt="profil">
                     </div>
-                    <div>
-                        <p class="font-[24px]"></p>>Commission unique, au pourcentage sur les ventes</p>
-                        <p class="font-[24px]"></p>>Mise en avant sur la plateforme</p>
-                        <p class="font-[24px]"></p>>Contrôle total sur le cours:contenu, prix</p>
-                        <p class="font-[24px]"></p>>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</p>
-                        <p class="font-[24px]"></p>>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</p>
+                    <div class="flex flex-col gap-[28px] font-[26px] text-[#152237] font-semibold w-[65%]">
+                        <p>Commission unique, au pourcentage sur les ventes</p>
+                        <p>Mise en avant sur la plateforme</p>
+                        <p>Contrôle total sur le cours:contenu, prix</p>
+                        <p>Fonctionnalités avancées : espace commentaires, possibilité de créer des QCM, exercices, vidéos, téléchargement en PDF, suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</p>
+                        <p>Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d’auteur</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="section6">
-            <div id="gauche3">
-                <h2 class="uppercase font-[900] text-[40px] text-[#152237] mb-[1%]">À propos de Klivio</h2>
-                <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous nous engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail. </p>
+        <div class="flex h-[641px] justify-around bg-[#E2CFEA]"> <!--Section 6-->
+            <div class="w-[50%] pt-[184px] pr-[60px] pl-[100px]">
+                <h2 class="uppercase font-[900] text-[40px] text-[#152237] mb-[1%] pb-[40px]">À propos de Klivio</h2>
+                <p class="font-[18px]">Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre approche éducative. Nous nous engageons à assurer une rémunération équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail. </p>
                 <br>
-                <p>Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité  écessaire pour explorer divers sujets. La transparence est au cœur de notre démarche, garantissant une clarté totale sur les formations que les instructeurs proposent. Ensemble, ces valeurs forment le socle d'une  ducation enrichissante et équitable, guidant notre mission d'offrir des pportunités d'apprentissage de qualité</p>
+                <p class="font-[18px]"> Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité  écessaire pour explorer divers sujets. La transparence est au cœur de notre démarche, garantissant une clarté totale sur les formations que les instructeurs proposent. Ensemble, ces valeurs forment le socle d'une  ducation enrichissante et équitable, guidant notre mission d'offrir des pportunités d'apprentissage de qualité</p>
             </div>
-            <div id="droite3">
-                <img src="ressources/logo.png" alt="logo Klivio">
+            <div class="bg-[#423073] w-[50%] flex items-center justify-center"> <!--droite3-->
+                <img src="ressources/logo.png" alt="logo Klivio" class="w-[293px]">
             </div>
         </div>
-        <div id="section7">
-            <h2 class="uppercase font-[900] text-[40px] text-[#152237] mb-[1%]">Nous contacter</h2>
-            <hr>
-            <form>
-                <div id="inlineForm">
-                <input type="text" placeholder="Nom" label="form">
-                <input type="text" placeholder="Email" label="form">
+        <div class=" bg-[#A06CD5] flex justify-self-center flex-col h-auto items-center w-full"> <!--Section 7-->
+            <h2 class="uppercase font-[900] text-[40px] text-white mb-[1%] pt-[60px] text-center flex flex-col items-center">Nous contacter</h2>
+            <hr class="border-solid border-[1px] border-[white] w-[25%] flex justify-self-center mb-[50px]">
+            <form class="w-[95%]">
+                <div class="flex w-full flex-row justify-between gap-[5%]">
+                <input type="text" placeholder="Nom" label="form" class="text-[#152237] text-[18px] placeholder:text-[#152237] w-[45%] h-[45px] mb-[55px] p-[15px] bg-[#E2CFEA]">
+                <input type="text" placeholder="Email" label="form" class="text-[#152237] text-[18px] placeholder:text-[#152237] w-[45%] h-[45px] mb-[55px] p-[15px] bg-[#E2CFEA]">
                 </div>
-                <div id="mail">
-                <textarea placeholder="Votre message" id="message-input" label="form"></textarea>
+                <div class="w-full flex justify-center">
+                <textarea placeholder="Votre message" id="message-input" label="form" class="w-[100%] h-[195px] box-border p-[15px] resize-none text-[#152237] text-[18px] placeholder:text-[#152237] mb-[55px] bg-[#E2CFEA]"></textarea>
                 </div>
             </form>
-            <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px]">Envoyer</button>
+            <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] bg-[#E2CFEA] text-[#152237] mb-[55px]">Envoyer</button>
         </div>
-        <div id="barreVerte"></div>
-        <footer>
-            <div id="haut">
-                <img src="ressources/logo.png" alt="logo klivio" id="logo">
-                <div id="mentions">
+        <div class="h-[18px] pt-[77px] bg-[#E2CFEA]"></div>
+        <footer class="h-auto bg-[#423073]">
+            <div class="flex justify-evenly pt-[96px] pb-[28px]">
+                <img src="ressources/logo.png" alt="logo klivio" class="w-[243px] h-[87px]">
+                <div class="flex justify-center gap-[65px]">
                     <div id="mentionsLegales">
-                        <h3>Mentions légales</h3>
-                        <p class="cursor-pointer">CGU</p>
-                        <p class="cursor-pointer">CGV</p>
-                        <p class="cursor-pointer">FAQ</p>
-                        <p class="cursor-pointer">Contact</p>
+                        <h3 class="font-[15px] font-bold text-white mb-[16px]">Mentions légales</h3>
+                        <p class="cursor-pointer text-white">CGU</p>
+                        <p class="cursor-pointer text-white">CGV</p>
+                        <p class="cursor-pointer text-white">FAQ</p>
+                        <p class="cursor-pointer text-white">Contact</p>
                     </div>
-                    <div id="coordonnées">
-                        <h3>Coordonnées</h3>
+                    <div> <!--coordonées-->
+                        <h3 class="font-[15px] font-bold text-white mb-[16px]">Coordonnées</h3>
                         <div class="flex flex-row gap-[25px]">
-                            <div class="flex flex-col gap-[20px]">
+                            <div class="flex flex-col gap-[20px] ">
                                 <img src="ressources/marker-02.svg" alt="localisation">
                                 <img src="ressources/phone.svg" alt="telephone">
                                 <img src="ressources/mail-01.svg" alt="mail">
                             </div>
-                            <div id="petit">
+                            <div class="flex flex-col font-[15px] gap-[20px] text-white">
                                 <p>1 place république, 75003 Paris</p>
                                 <p>01.02.03.04.05</p>
                                 <p>contact@klivio.fr</p>
@@ -249,20 +249,20 @@
                         </div>
                     </div>
                 </div>
-                <div id="ensemble" class="mobileNone">
-                    <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] mobileNone">Connexion</button>
-                    <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] gradient mobileNone">Inscription</button>
+                <div class="max-sm:hidden flex flex-col">
+                    <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] max-sm:hidden mb-[12px] bg-[#A06CD5]">Connexion</button>
+                    <button class="cursor-pointer rounded-[6px] border-none w-[130px] h-[40px] max-sm:hidden mb-[12px] bg-[#A06CD5]">Inscription</button>
                 </div>
             </div>
-            <hr class="mobileNone">
-            <div id="bas" class="mobileNone">
-                <p class="mobileNone">© Klivio -  2025</p>
-                <div id="reseaux" class="mobileNone">
-                    <p class="mobileNone">Suivez - nous</p>
-                    <img src="ressources/facebook.svg" alt="facebook" class="cursor-pointer mobileNone">
-                    <img src="ressources/x.svg" alt="X" class="cursor-pointer mobileNone">
-                    <img src="ressources/instagram.svg" alt="Instagram" class="cursor-pointer mobileNone">
-                    <img src="ressources/Vector.svg" alt="Linkedin" class="cursor-pointer mobileNone">
+            <hr class="max-sm:hidden w-[80%] mr-[10%] ml-[10%] mb-[55px]">
+            <div class="max-sm:hidden text-white mr-[96px] ml-[96px] flex justify-between pb-[55px]">
+                <p class="max-sm:hidden">© Klivio -  2025</p>
+                <div class="max-sm:hidden flex flex-row items-center gap-[21px]">
+                    <p class="max-sm:hidden">Suivez - nous</p>
+                    <img src="ressources/facebook.svg" alt="facebook" class="cursor-pointer max-sm:hidden">
+                    <img src="ressources/x.svg" alt="X" class="cursor-pointer max-sm:hidden">
+                    <img src="ressources/instagram.svg" alt="Instagram" class="cursor-pointer max-sm:hidden">
+                    <img src="ressources/Vector.svg" alt="Linkedin" class="cursor-pointer max-sm:hidden">
                 </div>
             </div>
         </footer>
