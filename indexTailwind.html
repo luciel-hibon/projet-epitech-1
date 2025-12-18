@@ -24,13 +24,13 @@
             <img src="ressources/Icon.svg" alt="menu" class="cursor-pointer w-[84px] h-[31px] xl:hidden">
         </nav> 
         <header class="h-[450px] bg-[url(ressources/bg-header.png)] flex flex-col items-center justify-center gap-[20px] relative w-[100%] font-bold text-[25px]">
-            <h1 class="uppercase bg-white pr-[2%] pl-[2%] text-[#423073]">Klivio, l'allié de votre progression</h1>
-            <p class="uppercase bg-white pr-[2%] pl-[2%] text-[#423073]">Les meilleures formations sur le développement personnel</p>
+            <h1 class="uppercase bg-white pr-[2%] pl-[2%] text-[#423073] text-center">Klivio, l'allié de votre progression</h1>
+            <p class="uppercase bg-white pr-[2%] pl-[2%] text-[#423073] text-center">Les meilleures formations sur le développement personnel</p>
             <button class="cursor-pointer bg-[#423073] rounded-[6px] border-none w-[130px] h-[40px] text-[18px] text-white font-semibold">En savoir plus</button>
         </header>
-        <div class="h-[632px] bg-[#E2CFEA] relative text-[#423073]">
-            <h2 class="font-bold text-[30px] pt-[30px] pb-[30px]  mr-[5%] ml-[4%]">Les formations populaires</h2>
-            <div class="flex justify-evenly">
+        <div class="min-h-[632px] bg-[#E2CFEA] relative text-[#423073]">
+            <h2 class="font-bold text-[30px] pt-[30px] pb-[30px]  mr-[5%] ml-[4%] max-sm:text-center">Les formations populaires</h2>
+            <div class="flex xl:justify-evenly max-sm:flex-col max-sm:justify-center">
                 <article class="w-[307px] h-[362px]">
                     <img src="ressources/img-course.png" alt="image de cours" class="mb-[21px]">
                     <div>
@@ -78,9 +78,9 @@
             </div>
             <button class="cursor-pointer rounded-[6px] border-none w-[225px] h-[40px] bg-[#423073] text-white flex justify-self-center justify-center items-center absolute bottom-[30px]">Voir plus de formations</button>
         </div>
-        <div class="h-[632px] bg-[#423073] relative"> <!--section 2-->
-            <h2 class="font-bold text-white text-[30px] pt-[30px] pb-[30px]  mr-[5%] ml-[4%]">Les formations récentes</h2>
-            <div class="flex justify-evenly">
+        <div class="min-h-[632px] bg-[#423073] relative"> <!--section 2-->
+            <h2 class="font-bold text-white text-[30px] pt-[30px] pb-[30px]  mr-[5%] ml-[4%] max-sm:text-center">Les formations récentes</h2>
+            <div class="flex justify-evenly max-sm:justify-center max-sm:flex-col">
                 <article class="w-[307px] h-[362px] text-white">
                     <img src="ressources/img-course.png" alt="image de cours" class="mb-[21px]">
                     <div class="prix">
@@ -128,16 +128,16 @@
             </div>
             <button class="cursor-pointer rounded-[6px] border-none w-[225px] h-[40px] bg-[#E2CFEA] text-[#423073] flex justify-self-center justify-center items-center absolute bottom-[30px]">Voir plus de formations</button>
         </div>
-        <div class="h-[597px] bg-[#E2CFEA]"> <!--Section 3-->
+        <div class="min-h-[597px] bg-[#E2CFEA] max-sm:h-auto"> <!--Section 3-->
             <h2 class="uppercase font-[900] text-[40px] text-[#152237] p-[58px] text-center">Avis clients</h2>
-            <div class="flex justify-evenly gap-[33px] pr-[152px] pl-[152px]">
+            <div class="flex justify-evenly gap-[33px] pr-[152px] pl-[152px] max-sm:justify-center max-sm:flex-col">
                 <div class="max-w-[686px]">
                     <img src="ressources/juliette.png" alt="juliette" class="rounded-[100%] pt-[10px] pb-[10px]">
                     <h3>Juliette</h3>
                     <img src="ressources/5etoiles.svg" alt="5 étoiles">
                     <p>J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et la progression est motivante — parfait pour se former en autonomie.</p>
                 </div>
-                <div class="max-w-[686px]">
+                <div class="max-w-[686px] max-sm:pb-[55px]">
                     <img src="ressources/camille.png" alt="camille" class="rounded-[100%] pt-[10px] pb-[10px]">
                     <h3>Camille</h3>
                     <img src="ressources/5etoiles.svg" alt="5 étoiles">
